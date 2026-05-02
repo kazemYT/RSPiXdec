@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # RSPiXdec
 
 simple python tool for converting old rspix/postal model formats (`.sop` + `.mesh`) into `.obj`
