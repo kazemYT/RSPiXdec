@@ -21,7 +21,7 @@ no external dependencies
 
 ## usage
 
-python convert.py model
+python rspixdec.py model
 
 this will:
 
