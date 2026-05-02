@@ -11,16 +11,7 @@ simple python tool for converting old rspix/postal model formats (`.sop` + `.mes
 
 ## supported format
 
-expects files:
-
-model.sop
-
-model.mesh
-
-run with base name:
-
-model
-
+expects files; example.sop, example.mesh
 
 ## requirements
 
@@ -30,35 +21,31 @@ no external dependencies
 
 ## usage
 
-```bash
 python convert.py model
 
 this will:
 
 load model.sop
+
 load model.mesh
+
 detect vertex block automatically
+
 build mesh
+
 export model.obj
-output
 
-example:
-
-sop offset: 32
-vertices:   1248
-faces:      2330
-saved:      model.obj
-how it works
+# how it works
 .sop is scanned for valid float4 (x, y, z, w) blocks
 vertices are accepted if values are in sane ranges and w ≈ 1.0
 .mesh is scanned for uint16 triangle indices
 best valid face block is selected automatically
-limitations
+## limitations
 heuristic-based parsing (no official spec)
 may fail on heavily modified files
 normals are dummy (0,1,0)
 assumes standard postal/rspix layout
-errors
+## errors
 not a chan file → wrong input format
 could not locate sop vertex block → no valid float4 region found
 could not locate mesh faces → face data not detected
