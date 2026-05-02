@@ -25,15 +25,15 @@ python convert.py model
 
 this will:
 
-load model.sop
+- load model.sop
 
-load model.mesh
+- load model.mesh
 
-detect vertex block automatically
+- detect vertex block automatically
 
-build mesh
+- build mesh
 
-export model.obj
+- export model.obj
 
 # how it works
 .sop is scanned for valid float4 (x, y, z, w) blocks
