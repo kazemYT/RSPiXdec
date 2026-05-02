@@ -89,8 +89,8 @@ def convert(base_name):
     print(f"Saved:      {out}")
 def print_usage():
     print("Usage:")
-    print("  python Convert.py <filename>")
-    print("  python Convert.py woman1")
+    print("  python rspixdec.py <filename>")
+    print("  python rspixdec.py woman1")
     print("\nThis will look for woman1.sop and woman1.mesh files")
 if __name__ == "__main__":
     if len(sys.argv) != 2:
