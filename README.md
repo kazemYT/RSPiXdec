@@ -53,6 +53,12 @@ normals are dummy (0,1,0)
 
 assumes standard postal/rspix layout
 
+## scope/targets
+| Component | Purpose | Status |
+|---|---|---|
+| **rspixdec.py** | model decompiler | Completed |
+| **rspixtexdec.py** | tex decompiler | Planned |
+
 ## errors
 not a chan file → wrong input format
 
