@@ -26,9 +26,13 @@ python convert.py model
 this will:
 
 load model.sop
+
 load model.mesh
+
 detect vertex block automatically
+
 build mesh
+
 export model.obj
 
 # how it works
