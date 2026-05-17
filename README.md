@@ -83,3 +83,6 @@ file not found → missing .sop or .mesh
 2) run `python rspixtexdec.py model.obj --pal Bridge.pal --out-obj model_uv.obj --out-tex model_palette.png`
 
 Produces OBJ with UV per face (no MTL) and PNG palette texture.
+2) run `python rspixtexdec.py model.obj --pal Bridge.pal --out-obj model_uv.obj --out-tex model_palette.ppm`
+
+Produces OBJ with UV per face (no MTL) and palette texture.
