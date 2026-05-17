@@ -71,3 +71,15 @@ file not found → missing .sop or .mesh
 |---|---|---|
 | **rspixdec.py** | model decompiler | Completed |
 | **rspixtexdec.py** | tex decompiler | Planned |
+
+
+## .sak reader/editor
+`python sak_tools.py list game.sak`
+`python sak_tools.py extract game.sak out_dir`
+`python sak_tools.py build out_dir rebuilt.sak`
+
+## texture decompiler (one color = one polygon)
+1) convert model to obj via `rspixdec.py`
+2) run `python rspixtexdec.py model.obj --pal Bridge.pal --out-obj model_uv.obj --out-tex model_palette.ppm`
+
+Produces OBJ with UV per face (no MTL) and palette texture.
