@@ -70,7 +70,7 @@ file not found → missing .sop or .mesh
 | Component | Purpose | Status |
 |---|---|---|
 | **rspixdec.py** | model decompiler | Completed |
-| **rspixtexdec.py** | tex decompiler | Planned |
+| **rspixtexdec.py** | tex decompiler | not work maybeee |
 
 
 ## .sak reader/editor
